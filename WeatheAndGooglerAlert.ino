@@ -6,12 +6,12 @@
 
 #include <esp8266-google-home-notifier.h>
 
-const char* ssid     = "aterm-9ce752-g";   // your network SSID (name of wifi network)
-const char* password = "4a10d47876d87";    // your network password
-const String citycode = "120010";//天気を取得する地域コード(270000は大阪全域)
+const char* ssid     = "test";   // your network SSID (name of wifi network)
+const char* password = "test";    // your network password
+const String citycode = "test";//天気を取得する地域コード(270000は大阪全域)
 
 GoogleHomeNotifier ghn;
-const char displayName[] = "masayuki_mini"; //スマホアプリで確認。Google Home のデバイス名
+const char displayName[] = "test"; //スマホアプリで確認。Google Home のデバイス名
 
 const byte SUNNY = 0;
 const byte CLOUDY = 1;
